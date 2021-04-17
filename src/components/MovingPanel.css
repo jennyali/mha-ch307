@@ -1,0 +1,56 @@
+.panel {
+    overflow: hidden;
+    position: relative;
+}
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5 {
+  position: absolute;
+  border-radius: 5px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  will-change: transform;
+}
+
+.card1 {
+  height: 100%;
+  width: 100%;
+  background-image: url(../images/layer\ 1.jpg);
+}
+
+.card2 {
+  height: 100%;
+  width: 100%;
+  background-image: url(../images/layer\ 2.png);
+}
+
+.card3 {
+  opacity: 1;
+  height: 100%;
+  width: 100%;
+  background-image: url(../images/layer\ 3.png);
+}
+
+.card4 {
+  height: 100%;
+  width: 100%;
+  background-image: url(../images/layer\ 4.png);
+}
+
+.card5 {
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/viewport.png);
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
